@@ -9,13 +9,13 @@
 <body>
     <main id="cadastro">
         <section id="section-img">
-            <figure id="img-flex-pai">
+            <figure>
                 <img src="imagens/undraw_sign_up_n6im.svg" alt="img-fundo" id="imagem-svg">
             </figure>
             <h1 id="img-text">start for free and get attractive offers.</h1>
         </section>
 
-        <section>
+        <section id="form-pai">
             <article id="login-box">
                 <h1 id="titulo-principal">Get's started.</h1>
                 <p>already have on account? <a href="#" class="login">Log in</a></p>
@@ -30,12 +30,16 @@
             </article>
 
             <article>
-                <label for="email">Email address</label>
-                <input type="text" name="email" id="email" placeholder="exemplo@gmail.com">
-                <label for="senha">Password</label>
-                <input type="password" name="senha" id="senha" placeholder="Insira a senha">
+                <form action="#">
+                    <label for="email">Email address</label>
+                    <input type="text" name="email" id="email" placeholder="exemplo@gmail.com">
+                    <label for="senha">Password</label>
+                    <input type="password" name="senha" id="senha" placeholder="Insira a senha">
+                </form>
 
-                <button name="register" id="register">Register</button>
+                <span>
+                    <button name="register" id="register">Register</button>
+                </span>
             </article>
         </section>
     </main>
